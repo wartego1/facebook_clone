@@ -1,0 +1,61 @@
+*{
+    margin:  0; /* HTML blockları arasındaki mesafe*/
+    padding: 0;
+    box-sizing:  border-box;
+
+}
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #eee;
+    font-family:  Arial, Helvetica, sans-serif  ;
+}
+.container{
+    text-align: center;
+}
+h1{
+    margin: 20px 0px;
+    color: #1877f2;
+     font-weight: bold;
+}
+.login{
+    display: flex;
+    flex-direction:  column ;
+    width: 300px;
+    padding: 15px;    /* dolgu,boşluk bırakıyor*/
+    border-radius: 10px;   /*gives roundness*/
+    background-color: white;
+    box-shadow: 1px 1px 10px 1px ;
+
+
+}
+p{
+    margin:  10px 0px;
+}
+input{
+    margin: 5px 0px;
+    height: 40px;
+    padding: 7px;
+}
+button{
+    height: 40px;
+    margin: 5px 0px;
+    background-color: #1877f2;
+    color: #fff;
+    border: none;   /* it gives edgyness to edges*/
+    border-radius: 5px;
+    font-weight: bold;
+}   
+button:hover{    /*üstüne gelince ne olsun?*/
+    background-color: #126bdf;
+}
+a{
+    font-size:  14px;
+    text-decoration: none; /*used to remove the underline*/
+    color: #1877f2;
+}
+a:hover{
+    text-decoration: underline;
+} 
